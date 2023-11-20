@@ -19,6 +19,7 @@ const NavBarComponent = () => {
               <NavDropdown.Item href="#action/3.3">Cervezas</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+            <CartWidgetComponent />
         </Navbar.Collapse>
       </Container>
     </Navbar>
