@@ -1,10 +1,19 @@
-const CartWidgetComponent = () => {
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
+const CartWidgetComponent = () =>{
+    const iconStyles = {
+
+        fontSize: '1.3rem',
+
+        paddingRight: '10px'
+
+    }
     return (
         <div>
-            <span>icono</span>
-            <span>10</span>
+            <FontAwesomeIcon style={iconStyles} icon={faCartShopping}/>
+        <span style={{color: 'black 1.3rem'}}  >10</span>
         </div>
-    )
+    );
 }
 
-export default CartWidgetComponent;
+export default CartWidgetComponent; 
